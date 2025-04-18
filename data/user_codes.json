@@ -1,0 +1,52 @@
+[
+  {
+    "code_value": "200",
+    "name": "Success",
+    "description": "The request was successful"
+  },
+  {
+    "code_value": "201",
+    "name": "Created Successfully",
+    "description": "The resource was created"
+  },
+  {
+    "code_value": "400",
+    "name": "Invalid Request",
+    "description": "The request was invalid"
+  },
+  {
+    "code_value": "404",
+    "name": "Resource Not Found",
+    "description": "The requested resource could not be found"
+  },
+  {
+    "code_value": "500",
+    "name": "Server Error",
+    "description": "An internal server error occurred"
+  },
+  {
+    "code_value": "999",
+    "name": "Custom Error",
+    "description": "A custom error occurred"
+  },
+  {
+    "code_value": "1001",
+    "name": "Database Connection Error",
+    "description": "Failed to connect to the database"
+  },
+  {
+    "code_value": "1002",
+    "name": "Authentication Failed",
+    "description": "User authentication failed"
+  },
+  {
+    "code_value": "1003",
+    "name": "Validation Error",
+    "description": "Input validation failed"
+  },
+  {
+    "code_value": "1004",
+    "name": "Rate Limited",
+    "description": "Too many requests from this client"
+  }
+]

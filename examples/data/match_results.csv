@@ -1,0 +1,7 @@
+user_code_value,user_code_name,similarity_score,is_match,threshold,matched_code_value,matched_code_name,matched_code_description
+200,Success,0.5,False,0.7,200,OK,Request was successful
+201,Created Successfully,0.5,False,0.7,200,OK,Request was successful
+400,Invalid Request,0.5860058546105058,False,0.7,400,Bad Request,The request was invalid or cannot be served
+404,Resource Not Found,0.7277777777777776,True,0.7,404,Not Found,The requested resource could not be found
+500,Server Error,0.5282439782439782,False,0.7,500,Internal Server Error,An unexpected condition was encountered
+999,Custom Error,0.2987900092738802,False,0.7,500,Internal Server Error,An unexpected condition was encountered

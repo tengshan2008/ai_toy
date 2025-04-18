@@ -1,0 +1,182 @@
+[
+  {
+    "user_code": {
+      "code_value": "200",
+      "name": "Success",
+      "description": "The request was successful"
+    },
+    "similarity_score": 0.5,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "200",
+      "name": "OK",
+      "description": "Request was successful",
+      "category": "Success",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "201",
+      "name": "Created Successfully",
+      "description": "The resource was created"
+    },
+    "similarity_score": 0.5,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "200",
+      "name": "OK",
+      "description": "Request was successful",
+      "category": "Success",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "400",
+      "name": "Invalid Request",
+      "description": "The request was invalid"
+    },
+    "similarity_score": 0.5860058546105058,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "400",
+      "name": "Bad Request",
+      "description": "The request was invalid or cannot be served",
+      "category": "Client Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "404",
+      "name": "Resource Not Found",
+      "description": "The requested resource could not be found"
+    },
+    "similarity_score": 0.7277777777777776,
+    "is_match": true,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "404",
+      "name": "Not Found",
+      "description": "The requested resource could not be found",
+      "category": "Client Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "500",
+      "name": "Server Error",
+      "description": "An internal server error occurred"
+    },
+    "similarity_score": 0.5282439782439782,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "500",
+      "name": "Internal Server Error",
+      "description": "An unexpected condition was encountered",
+      "category": "Server Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "999",
+      "name": "Custom Error",
+      "description": "A custom error occurred"
+    },
+    "similarity_score": 0.2987900092738802,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "500",
+      "name": "Internal Server Error",
+      "description": "An unexpected condition was encountered",
+      "category": "Server Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "1001",
+      "name": "Database Connection Error",
+      "description": "Failed to connect to the database"
+    },
+    "similarity_score": 0.2885261984392419,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "500",
+      "name": "Internal Server Error",
+      "description": "An unexpected condition was encountered",
+      "category": "Server Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "1002",
+      "name": "Authentication Failed",
+      "description": "User authentication failed"
+    },
+    "similarity_score": 0.2578574203574203,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "401",
+      "name": "Unauthorized",
+      "description": "Authentication credentials were missing or incorrect",
+      "category": "Client Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "1003",
+      "name": "Validation Error",
+      "description": "Input validation failed"
+    },
+    "similarity_score": 0.30792461195687,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "500",
+      "name": "Internal Server Error",
+      "description": "An unexpected condition was encountered",
+      "category": "Server Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  },
+  {
+    "user_code": {
+      "code_value": "1004",
+      "name": "Rate Limited",
+      "description": "Too many requests from this client"
+    },
+    "similarity_score": 0.2873588376613563,
+    "is_match": false,
+    "threshold": 0.6,
+    "matched_code": {
+      "code_value": "504",
+      "name": "Gateway Timeout",
+      "description": "The server did not receive a timely response from the upstream server",
+      "category": "Server Error",
+      "created_at": "2023-01-01T00:00:00",
+      "updated_at": "2023-01-01T00:00:00"
+    }
+  }
+]
